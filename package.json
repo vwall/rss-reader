@@ -19,8 +19,8 @@
     "postinstall": "npm run lint:fix"
   },
   "build": {
-    "productName": "rss-reader",
-    "appId": "org.simulatedgreg.electron-vue",
+    "productName": "RSS Reader",
+    "appId": "org.meetgodhani.rss-reader",
     "directories": {
       "output": "build"
     },
@@ -56,7 +56,7 @@
     "cheerio": "^1.0.0-rc.2",
     "feedparser": "^2.2.8",
     "got": "^8.0.2",
-    "lowdb": "^1.0.0",
+    "nedb": "^1.8.0",
     "vue": "^2.4.2",
     "vue-electron": "^1.0.6",
     "vue-router": "^2.5.3",

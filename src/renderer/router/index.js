@@ -7,8 +7,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'landing-page',
-      component: require('@/components/LandingPage').default
+      name: 'welcome-view',
+      component: require('@/components/WelcomeView').default
+    },
+    {
+      path: '/inspire',
+      name: 'inspire',
+      component: require('@/components/InspireView').default
     },
     {
       path: '*',

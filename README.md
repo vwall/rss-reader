@@ -1,6 +1,6 @@
 # rss-reader
 
-> Simple RSS reader made using Vue and Atom Electron
+> Simple RSS Reader using VueJs, Vuetify and Electron
 
 #### Build Setup
 
